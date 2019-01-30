@@ -1,0 +1,211 @@
+        .indent {
+            margin-left: 15px;
+            font-size: 15px;
+        }
+        .interval {
+            font-weight: bold;
+            font-size: 25px;
+        }
+        ul {
+            list-style: none;
+        }
+        body {
+            font-family: Calibri;
+            background-color: black;
+            color: #d6c372;
+        }
+        a {
+            color: #bec7c7;
+        }
+        h1 {
+            color: white;
+            font-size: 40px;
+        }
+        #top-right {
+            position: absolute;
+            top: 0;
+            right: 0;
+            color: white;
+            padding: 5px;
+        }
+        td {
+            border-spacing: 0;
+            font-family: Helvetica;
+            height: 50px;
+            width: 150px;
+            text-align: center;
+            background-color: black;
+        }
+        td:hover {
+            color: white;
+            cursor: pointer;
+        }
+        td:hover > a {
+            color: white;
+        }
+        h2 {
+            margin-left: 25px;
+        }
+        #firstbox {
+            width: 750px;
+            height: 250px;
+            border: 2px solid white;
+            background-color: #bec7c7;
+            margin-left: 25px;
+            padding: 25px;
+            color: black;
+        }
+        #firstbox > *{
+            display:inline-block;
+        }
+        #box {
+            width: 400px;
+            height: 250;
+            vertical-align: top;
+            line-height: 200%;
+            color: black;
+        }
+        p {
+            width: 500px;
+        }
+        .list-div {
+            width: 245px;
+            height: 1300px;
+            color: black;
+            border: 2px solid white;
+            margin-left: 25px;
+            background-color: #bec7c7;
+        }
+        .list-header {
+            color: black;
+            margin-left: 50px;
+            font-weight: bold;
+        }
+        .list-sports {
+            list-style: none;
+            font-size: 25px;
+            margin-top: 126px;
+        }
+        .list-food {
+            list-style: none;
+            font-size: 31px;
+            margin-top: 38px;
+        }
+        .list-rap {
+            list-style: none;
+            font-size: 22px;
+            margin-top: 65px;
+        }
+        .list-image {
+            padding-left: 15px;
+            padding-top: 15px;
+            
+        }
+        #list-group > *{
+            display:inline-block;
+        }
+        #bumgarner {
+            font-size: 13px;
+        }
+        #antetokounmpo {
+            font-size:11px;
+        }
+        #beckham {
+            font-size:15px;
+        }
+        #garoppolo {
+            font-size: 15px;
+        }
+        #crawford {
+            font-size: 15px;
+        }
+        #irving {
+            font-size: 24px;
+        }
+        #pence {
+            font-size: 20px;
+        }
+        #curry {
+            font-size: 23px;
+        }
+        #thompson {
+            font-size: 17px;
+        }
+        #posey {
+            font-size: 21px;
+        }
+        #pachulia {
+            font-size: 20px;
+        }
+        #mcgee {
+            font-size: 19px;
+        }
+        #green {
+            font-size: 16px
+        }
+        #x {
+            font-size: 17px;
+        }
+        #uzi {
+            font-size: 25px
+        }
+        #savage {
+            font-size: 25px;
+        }
+        #lamar {
+            font-size: 17px;
+        }
+        #tay-k {
+            font-size: 47px;
+        }
+        #logic {
+            font-size: 47px;
+        }
+        #drake {
+            font-size: 43px;
+        }
+        #offset {
+            font-size: 40px;
+        }
+        #dre {
+            font-size: 37px;
+        }
+        #eminem {
+            font-size: 32px;
+        }
+        #fried-chicken {
+            font-size: 20px;
+        }
+        #salmon {
+            font-size: 35px;
+        }
+        #reeses {
+            font-size: 36px;
+        }
+        #fries {
+            font-size: 22px;
+        }
+        #ribs {
+            font-size: 29px;
+        }
+        #pie {
+            font-size: 27px;
+        }
+        #ice-cream {
+            font-size: 26px;
+        }
+        #cake {
+            font-size: 23px;
+        }
+        #garlic-bread {
+            font-size: 22px;
+        }
+        .short-food-words {
+            font-size: 53px;
+        }
+        #rice {
+            font-size: 58px;
+        }
+        #pizza {
+            font-size: 51px;
+        }

@@ -1,0 +1,59 @@
+        table {
+            border-spacing: 0;
+        }
+        th {
+            padding: 10px;
+            color: #d6c372;
+            border: 2px solid white;
+        }
+        body {
+            font-family: Calibri;
+            background-image: url("images/stars.gif");
+        }
+        h1 {
+            color: white;
+            font-size: 40px;
+        }
+        .category {
+            color: #bec7c7;
+            padding: 10px;
+            border: 2px solid white;
+
+        }
+        .week {
+            color: #d6c372;
+            font-weight: bold;
+            padding: 10px;
+        }
+        ol {
+            color: #bec7c7;
+        }
+        h2 {
+            color: #d6c372;
+        }
+        #top-right {
+            position: absolute;
+            top: 0;
+            right: 0;
+            color: white;
+            padding: 5px;
+        }
+        .nav {
+            border-spacing: 0;
+            font-family: Helvetica;
+            height: 50px;
+            width: 150px;
+            text-align: center;
+            background-color: black;
+        }
+        .nav:hover {
+            color: white;
+            font-weight: bold;
+            cursor: pointer;
+        }
+        .nav:hover > a {
+            color: white;
+        }
+        a {
+            color: #bec7c7;
+        }

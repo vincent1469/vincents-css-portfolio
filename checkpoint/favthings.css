@@ -1,0 +1,53 @@
+            .spacing {
+                padding: 25px;
+            }
+            body {
+                font-family: Calibri;
+                background-image: url("images/stars.gif");
+            }
+            a {
+                color: #bec7c7;
+            }
+            a:hover {
+                font-weight: bold;
+            }
+            #go-back {
+                color: black;
+                border: 2px solid white;
+                padding: 10px;
+                background-color: white;
+            }
+            h1 {
+                color: white;
+                font-size: 40px;
+            }
+            h2 {
+                color: #bec7c7;
+                margin-left: 10px;
+            }
+            p {
+                color: #d6c372;
+            }
+            #top-right {
+                position: absolute;
+                top: 0;
+                right: 0;
+                color: white;
+                padding: 5px;
+            }
+            .nav {
+                border-spacing: 0;
+                font-family: Helvetica;
+                height: 50px;
+                width: 150px;
+                text-align: center;
+                background-color: black;
+            }
+            .nav:hover {
+                color: white;
+                font-weight: bold;
+                cursor: pointer;
+            }
+            .nav:hover > a {
+                color: white;
+            }
