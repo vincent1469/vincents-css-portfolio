@@ -1,0 +1,98 @@
+.navbar {
+    border-spacing: 0;
+    font-family: Helvetica;
+    height: 50px;
+    width: 150px;
+    text-align: center;
+    background-color: black;
+}
+
+.navbar:hover {
+    color: white;
+    cursor: pointer;
+}
+
+.navbar:hover>a {
+    color: white;
+}
+
+body {
+    font-family: Calibri;
+    background-color: black;
+    color: white;
+}
+
+#top-right {
+    position: absolute;
+    top: 0;
+    right: 0;
+    color: white;
+    padding: 5px;
+}
+
+a {
+    color: #bec7c7;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: #d6c372;
+}
+
+.starter-indent {
+    margin-left: 5%;
+}
+
+p {
+    width: 60%;
+}
+
+.starter-table {
+    margin-left: 5%;
+    border: 2px solid white;
+    text-align: center;
+}
+
+.s-tier {
+    background-color: #d6c372;
+    width: 100px;
+    height: 100px;
+}
+.a-tier {
+    background-color: purple;
+    width: 100px;
+    height: 100px;
+}
+.b-tier {
+    background-color: #87cefa;
+    width: 100px;
+    height: 100px;
+}
+.c-tier {
+    background-color: green;
+    width: 100px;
+    height: 100px;
+}
+.d-tier {
+    background-color: grey;
+    width: 100px;
+    height: 100px;
+}
+
+.display {
+    margin-left: 5%;
+    width: 700px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-radius: 25px;
+    background: white;
+    color: black;
+}
+
+#pokemon-1 {
+    margin-left: 5%;
+}
