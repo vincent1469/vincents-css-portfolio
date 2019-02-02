@@ -230,7 +230,8 @@ rateTeam.addEventListener("click", function() {
     var toon6 = 0;
     var teamRater = document.getElementById("teamRater");
 
-    if ((pokemon1.value == "Absol") ||
+    if (
+        (pokemon1.value == "Absol") ||
         (pokemon1.value == "Poliwrath") ||
         (pokemon1.value == "Primeape") ||
         (pokemon1.value == "Dodrio") ||
@@ -365,7 +366,8 @@ rateTeam.addEventListener("click", function() {
         toon1 = 1;
 
     }
-    if ((pokemon1.value == "Charizard") ||
+    else if (
+        (pokemon1.value == "Charizard") ||
         (pokemon1.value == "Exeggutor-Alola") ||
         (pokemon1.value == "Charizard-Mega-X") ||
         (pokemon1.value == "Charizard-Mega-Y") ||
@@ -546,7 +548,8 @@ rateTeam.addEventListener("click", function() {
         toon1 = 2;
 
     }
-    else if ((pokemon1.value == "Venusaur") ||
+    else if (
+        (pokemon1.value == "Venusaur") ||
         (pokemon1.value == "Kingdra") ||
         (pokemon1.value == "Venusaur-Mega") ||
         (pokemon1.value == "Exploud") ||
@@ -693,10 +696,142 @@ rateTeam.addEventListener("click", function() {
         (pokemon1.value == "stakataka") ||
         (pokemon1.value == "necrozma")
     ) {
+
         toon1 = 3;
+
     }
-    else if ((pokemon1.value == "Moltres")) {
+    else if ((pokemon1.value == "Moltres") ||
+        (pokemon1.value == "Venomoth") ||
+        (pokemon1.value == "Entei") ||
+        (pokemon1.value == "Sharpedo") ||
+        (pokemon1.value == "Darmanitan") ||
+        (pokemon1.value == "Sharpedo-Mega") ||
+        (pokemon1.value == "Zoroark") ||
+        (pokemon1.value == "Reuniclus") ||
+        (pokemon1.value == "Mienshao") ||
+        (pokemon1.value == "Durant") ||
+        (pokemon1.value == "Tornadus") ||
+        (pokemon1.value == "Kyurem") ||
+        (pokemon1.value == "Meloetta") ||
+        (pokemon1.value == "Talonflame") ||
+        (pokemon1.value == "Nidoking") ||
+        (pokemon1.value == "Tentacruel") ||
+        (pokemon1.value == "Magneton") ||
+        (pokemon1.value == "Muk-Alola") ||
+        (pokemon1.value == "Gengar") ||
+        (pokemon1.value == "Starmie") ||
+        (pokemon1.value == "Crobat") ||
+        (pokemon1.value == "Gligar") ||
+        (pokemon1.value == "Scizor") ||
+        (pokemon1.value == "Scizor-Mega") ||
+        (pokemon1.value == "Heracross") ||
+        (pokemon1.value == "Heracross-Mega") ||
+        (pokemon1.value == "Blissey") ||
+        (pokemon1.value == "Suicune") ||
+        (pokemon1.value == "Celebi") ||
+        (pokemon1.value == "Swampert") ||
+        (pokemon1.value == "Crawdaunt") ||
+        (pokemon1.value == "Latias") ||
+        (pokemon1.value == "Infernape") ||
+        (pokemon1.value == "Empoleon") ||
+        (pokemon1.value == "Lucario") ||
+        (pokemon1.value == "Hippowdon") ||
+        (pokemon1.value == "Togekiss") ||
+        (pokemon1.value == "Mamoswine") ||
+        (pokemon1.value == "Rotom-Heat") ||
+        (pokemon1.value == "Azelf") ||
+        (pokemon1.value == "Krookadile") ||
+        (pokemon1.value == "Amoonguss") ||
+        (pokemon1.value == "Alomomola") ||
+        (pokemon1.value == "Chandelure") ||
+        (pokemon1.value == "Haxorus") ||
+        (pokemon1.value == "Bisharp") ||
+        (pokemon1.value == "Hydreigon") ||
+        (pokemon1.value == "Cobalion") ||
+        (pokemon1.value == "Terrakion") ||
+        (pokemon1.value == "Chesnaught") ||
+        (pokemon1.value == "Doublade") ||
+        (pokemon1.value == "Sylveon") ||
+        (pokemon1.value == "Klefki") ||
+        (pokemon1.value == "Volcanion") ||
+        (pokemon1.value == "Primarina") ||
+        (pokemon1.value == "Kommo-o") ||
+        (pokemon1.value == "Nihilego") ||
+        (pokemon1.value == "Zeraora") ||
+        (pokemon1.value == "moltres") ||
+        (pokemon1.value == "venomoth") ||
+        (pokemon1.value == "entei") ||
+        (pokemon1.value == "sharpedo") ||
+        (pokemon1.value == "darmanitan") ||
+        (pokemon1.value == "sharpedo-mega") ||
+        (pokemon1.value == "Sharpedo-mega") ||
+        (pokemon1.value == "sharpedo-Mega") ||
+        (pokemon1.value == "zoroark") ||
+        (pokemon1.value == "reuniclus") ||
+        (pokemon1.value == "mienshao") ||
+        (pokemon1.value == "durant") ||
+        (pokemon1.value == "tornadus") ||
+        (pokemon1.value == "kyurem") ||
+        (pokemon1.value == "meloetta") ||
+        (pokemon1.value == "talonflame") ||
+        (pokemon1.value == "nidoking") ||
+        (pokemon1.value == "tentacruel") ||
+        (pokemon1.value == "magneton") ||
+        (pokemon1.value == "muk-alola") ||
+        (pokemon1.value == "muk-Alola") ||
+        (pokemon1.value == "Muk-alola") ||
+        (pokemon1.value == "gengar") ||
+        (pokemon1.value == "starmie") ||
+        (pokemon1.value == "crobat") ||
+        (pokemon1.value == "gligar") ||
+        (pokemon1.value == "scizor") ||
+        (pokemon1.value == "scizor-mega") ||
+        (pokemon1.value == "Scizor-mega") ||
+        (pokemon1.value == "scizor-Mega") ||
+        (pokemon1.value == "heracross") ||
+        (pokemon1.value == "heracross-mega") ||
+        (pokemon1.value == "Heracross-mega") ||
+        (pokemon1.value == "heracross-Mega") ||
+        (pokemon1.value == "blissey") ||
+        (pokemon1.value == "suicune") ||
+        (pokemon1.value == "celebi") ||
+        (pokemon1.value == "swampert") ||
+        (pokemon1.value == "crawdaunt") ||
+        (pokemon1.value == "latias") ||
+        (pokemon1.value == "infernape") ||
+        (pokemon1.value == "empoleon") ||
+        (pokemon1.value == "lucario") ||
+        (pokemon1.value == "hippowdon") ||
+        (pokemon1.value == "togekiss") ||
+        (pokemon1.value == "mamoswine") ||
+        (pokemon1.value == "rotom-heat") ||
+        (pokemon1.value == "Rotom-heat") ||
+        (pokemon1.value == "rotom-Heat") ||
+        (pokemon1.value == "azelf") ||
+        (pokemon1.value == "krookadile") ||
+        (pokemon1.value == "amoonguss") ||
+        (pokemon1.value == "alomomola") ||
+        (pokemon1.value == "chandelure") ||
+        (pokemon1.value == "haxorus") ||
+        (pokemon1.value == "bisharp") ||
+        (pokemon1.value == "hydreigon") ||
+        (pokemon1.value == "cobalion") ||
+        (pokemon1.value == "terrakion") ||
+        (pokemon1.value == "chesnaught") ||
+        (pokemon1.value == "doublade") ||
+        (pokemon1.value == "sylveon") ||
+        (pokemon1.value == "klefki") ||
+        (pokemon1.value == "volcanion") ||
+        (pokemon1.value == "primarina") ||
+        (pokemon1.value == "kommo-o") ||
+        (pokemon1.value == "Kommo-O") ||
+        (pokemon1.value == "kommo-O") ||
+        (pokemon1.value == "nihilego") ||
+        (pokemon1.value == "zeraora")
+    ) {
+
         toon1 = 4;
+
     }
     else if ((pokemon1.value == "Zapdos")) {
         toon1 = 5;
