@@ -212,3 +212,71 @@ samurott.addEventListener("mousemove", function(){
     dTierDisplay.innerHTML = "";
     cTierDisplay.innerHTML = "Samurott is a versatile attacker, with 100 attack and 107 special attack. Its pure Water typing only gives it two weaknesses (Electric and Grass), both of which he can counter with moves such as Dig or Ice Beam. Unfortunately, Samurott's other stats are not great. His special defense of 70 is especially bad against his weaknesses, both of which use special attacks. In addition to that, his 70 speed makes him an easy for opponents.";
 });
+
+var rateTeam = document.getElementById("rateTeam");
+var pokemon1 = document.getElementById("pokemon1");
+var pokemon2 = document.getElementById("pokemon2");
+var pokemon3 = document.getElementById("pokemon3");
+var pokemon4 = document.getElementById("pokemon4");
+var pokemon5 = document.getElementById("pokemon5");
+var megaPokemon = document.getElementById("megaPokemon");
+
+rateTeam.addEventListener("click", function(){
+    var toon1 = 0;
+    var toon2 = 0;
+    var toon3 = 0;
+    var toon4 = 0;
+    var toon5 = 0;
+    var toon6 = 0;
+    var teamRater = document.getElementById("teamRater");
+    
+    if ((pokemon1.value == "Charizard")) {
+        toon1 = 2;
+    }
+    else if (pokemon1.value == "Blastoise") {
+        toon1 = 3;
+    }
+    if ((pokemon2.value == "Charizard")) {
+        toon2 = 2;
+    }
+    else if (pokemon2.value == "Blastoise") {
+        toon2 = 3;
+    }
+    if ((pokemon3.value == "Charizard")) {
+        toon3 = 2;
+    }
+    else if (pokemon3.value == "Blastoise") {
+        toon3 = 3;
+    }
+    if ((pokemon4.value == "Charizard")) {
+        toon4 = 2;
+    }
+    else if (pokemon4.value == "Blastoise") {
+        toon1 = 3;
+    }
+    if ((pokemon5.value == "Charizard")) {
+        toon5 = 2;
+    }
+    else if (pokemon5.value == "Blastoise") {
+        toon5 = 3;
+    }
+    if (megaPokemon.value == "Mega Rayquaza") {
+        toon6 = 8;
+    }
+    
+    if (toon1 + toon2 + toon3 + toon4 + toon5 + toon6 >= 36) {
+        teamRater.innerHTML = "You have an excellent team and you can take on the best teams.";
+    }
+    if ((toon1 + toon2 + toon3 + toon4 + toon5 + toon6 <= 35) && (toon1 + toon2 + toon3 + toon4 + toon5 + toon6 >= 29)) {
+        teamRater.innerHTML = "You have a good team that is competitive.";
+    }
+    if ((toon1 + toon2 + toon3 + toon4 + toon5 + toon6 <= 28) && (toon1 + toon2 + toon3 + toon4 + toon5 + toon6 >= 22)) {
+        teamRater.innerHTML = "You have a decent team that can become competitive.";
+    }
+    if ((toon1 + toon2 + toon3 + toon4 + toon5 + toon6 <= 21) && (toon1 + toon2 + toon3 + toon4 + toon5 + toon6 >= 15)) {
+        teamRater.innerHTML = "You have a mediocre team that will struggle competitively.";
+    }
+    if ((toon1 + toon2 + toon3 + toon4 + toon5 + toon6 <= 14)) {
+        teamRater.innerHTML = "You have a bad team that isn't competitive at all.";
+    }
+});
