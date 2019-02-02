@@ -93,10 +93,6 @@ p {
     color: black;
 }
 
-#pokemon-1 {
-    margin-left: 5%;
-}
-
-#teamRater {
+.pokemon {
     margin-left: 5%;
 }

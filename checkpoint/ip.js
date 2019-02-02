@@ -6,7 +6,7 @@ var dTierDisplay = document.getElementById("dTierDisplay");
 
 var blaziken = document.getElementById("blaziken");
 
-blaziken.addEventListener("mousemove", function(){
+blaziken.addEventListener("mousemove", function() {
     aTierDisplay.innerHTML = "";
     bTierDisplay.innerHTML = "";
     dTierDisplay.innerHTML = "";
@@ -16,17 +16,17 @@ blaziken.addEventListener("mousemove", function(){
 
 var infernape = document.getElementById("infernape");
 
-infernape.addEventListener("mousemove", function(){
+infernape.addEventListener("mousemove", function() {
     aTierDisplay.innerHTML = "";
     bTierDisplay.innerHTML = "";
     dTierDisplay.innerHTML = "";
     cTierDisplay.innerHTML = "";
     sTierDisplay.innerHTML = "Infernape is another excellent option for a starter because it is a fast Pokemon, with 108 speed. It is also a versatile attacker, with 104 attack and special attack. His ability Iron Fist boosts his moves such as Fire Punch and Mach Punch. Finally, it gets coverage moves such as Thunder Punch and Ice Punch (which are boosted by his ability).";
-});  
+});
 
 var greninja = document.getElementById("greninja");
 
-greninja.addEventListener("mousemove", function(){
+greninja.addEventListener("mousemove", function() {
     aTierDisplay.innerHTML = "";
     bTierDisplay.innerHTML = "";
     cTierDisplay.innerHTML = "";
@@ -36,7 +36,7 @@ greninja.addEventListener("mousemove", function(){
 
 var feraligatr = document.getElementById("feraligatr");
 
-feraligatr.addEventListener("mousemove", function(){
+feraligatr.addEventListener("mousemove", function() {
     sTierDisplay.innerHTML = "";
     bTierDisplay.innerHTML = "";
     cTierDisplay.innerHTML = "";
@@ -46,7 +46,7 @@ feraligatr.addEventListener("mousemove", function(){
 
 var decidueye = document.getElementById("decidueye");
 
-decidueye.addEventListener("mousemove", function(){
+decidueye.addEventListener("mousemove", function() {
     sTierDisplay.innerHTML = "";
     aTierDisplay.innerHTML = "";
     cTierDisplay.innerHTML = "";
@@ -56,7 +56,7 @@ decidueye.addEventListener("mousemove", function(){
 
 var venusaur = document.getElementById("venusaur");
 
-venusaur.addEventListener("mousemove", function(){
+venusaur.addEventListener("mousemove", function() {
     sTierDisplay.innerHTML = "";
     bTierDisplay.innerHTML = "";
     dTierDisplay.innerHTML = "";
@@ -65,7 +65,7 @@ venusaur.addEventListener("mousemove", function(){
 });
 
 var swampert = document.getElementById("swampert");
-swampert.addEventListener("mousemove", function(){
+swampert.addEventListener("mousemove", function() {
     sTierDisplay.innerHTML = "";
     bTierDisplay.innerHTML = "";
     dTierDisplay.innerHTML = "";
@@ -75,7 +75,7 @@ swampert.addEventListener("mousemove", function(){
 
 var serperior = document.getElementById("serperior");
 
-serperior.addEventListener("mousemove", function(){
+serperior.addEventListener("mousemove", function() {
     sTierDisplay.innerHTML = "";
     bTierDisplay.innerHTML = "";
     dTierDisplay.innerHTML = "";
@@ -85,7 +85,7 @@ serperior.addEventListener("mousemove", function(){
 
 var primarina = document.getElementById("primarina");
 
-primarina.addEventListener("mousemove", function(){
+primarina.addEventListener("mousemove", function() {
     sTierDisplay.innerHTML = "";
     dTierDisplay.innerHTML = "";
     bTierDisplay.innerHTML = "";
@@ -95,7 +95,7 @@ primarina.addEventListener("mousemove", function(){
 
 var sceptile = document.getElementById("sceptile");
 
-sceptile.addEventListener("mousemove", function(){
+sceptile.addEventListener("mousemove", function() {
     sTierDisplay.innerHTML = "";
     dTierDisplay.innerHTML = "";
     aTierDisplay.innerHTML = "";
@@ -105,7 +105,7 @@ sceptile.addEventListener("mousemove", function(){
 
 var incineroar = document.getElementById("incineroar");
 
-incineroar.addEventListener("mousemove", function(){
+incineroar.addEventListener("mousemove", function() {
     sTierDisplay.innerHTML = "";
     aTierDisplay.innerHTML = "";
     bTierDisplay.innerHTML = "";
@@ -115,7 +115,7 @@ incineroar.addEventListener("mousemove", function(){
 
 var charizard = document.getElementById("charizard");
 
-charizard.addEventListener("mousemove", function(){
+charizard.addEventListener("mousemove", function() {
     sTierDisplay.innerHTML = "";
     aTierDisplay.innerHTML = "";
     bTierDisplay.innerHTML = "";
@@ -125,7 +125,7 @@ charizard.addEventListener("mousemove", function(){
 
 var emboar = document.getElementById("emboar");
 
-emboar.addEventListener("mousemove", function(){
+emboar.addEventListener("mousemove", function() {
     sTierDisplay.innerHTML = "";
     aTierDisplay.innerHTML = "";
     bTierDisplay.innerHTML = "";
@@ -135,7 +135,7 @@ emboar.addEventListener("mousemove", function(){
 
 var chesnaught = document.getElementById("chesnaught");
 
-chesnaught.addEventListener("mousemove", function(){
+chesnaught.addEventListener("mousemove", function() {
     sTierDisplay.innerHTML = "";
     aTierDisplay.innerHTML = "";
     dTierDisplay.innerHTML = "";
@@ -145,7 +145,7 @@ chesnaught.addEventListener("mousemove", function(){
 
 var meganium = document.getElementById("meganium");
 
-meganium.addEventListener("mousemove", function(){
+meganium.addEventListener("mousemove", function() {
     sTierDisplay.innerHTML = "";
     aTierDisplay.innerHTML = "";
     bTierDisplay.innerHTML = "";
@@ -155,7 +155,7 @@ meganium.addEventListener("mousemove", function(){
 
 var torterra = document.getElementById("torterra");
 
-torterra.addEventListener("mousemove", function(){
+torterra.addEventListener("mousemove", function() {
     sTierDisplay.innerHTML = "";
     aTierDisplay.innerHTML = "";
     bTierDisplay.innerHTML = "";
@@ -165,7 +165,7 @@ torterra.addEventListener("mousemove", function(){
 
 var blastoise = document.getElementById("blastoise");
 
-blastoise.addEventListener("mousemove", function(){
+blastoise.addEventListener("mousemove", function() {
     sTierDisplay.innerHTML = "";
     aTierDisplay.innerHTML = "";
     bTierDisplay.innerHTML = "";
@@ -175,7 +175,7 @@ blastoise.addEventListener("mousemove", function(){
 
 var empoleon = document.getElementById("empoleon");
 
-empoleon.addEventListener("mousemove", function(){
+empoleon.addEventListener("mousemove", function() {
     sTierDisplay.innerHTML = "";
     aTierDisplay.innerHTML = "";
     cTierDisplay.innerHTML = "";
@@ -185,17 +185,17 @@ empoleon.addEventListener("mousemove", function(){
 
 var typhlosion = document.getElementById("typhlosion");
 
-typhlosion.addEventListener("mousemove", function(){
+typhlosion.addEventListener("mousemove", function() {
     sTierDisplay.innerHTML = "";
     aTierDisplay.innerHTML = "";
     cTierDisplay.innerHTML = "";
     dTierDisplay.innerHTML = "";
-    bTierDisplay.innerHTML = "Typhlosion is a fast special attacker, with 109 special attack and 100 attack. In addition to that, Typhlosion can access Eruption, which does more damage the more health you have. If Typhlosion goes first, it can get off a powerful Eruption attack to start off. However, Typhlosion is easily countered by many types, and it doesn't help that its defense is 78 and its special defense is 85.";
+    bTierDisplay.innerHTML = "Typhlosion is a fast special attacker, with 109 special attack and 100 attack. In addition to that, Typhlosion can access Eruption, which does more damage the more health you have. If Typhlosion goes first, it can get off a powerful Eruption attack to start off. However, Typhlosion is easily countered by many types, and it doesn't help that its defense is 78 and its special defense is 85. Also, Eruption's power gets worse as you lose health, making it unreliable as the primary damage-dealing move.";
 });
 
 var delphox = document.getElementById("delphox");
 
-delphox.addEventListener("mousemove", function(){
+delphox.addEventListener("mousemove", function() {
     sTierDisplay.innerHTML = "";
     aTierDisplay.innerHTML = "";
     cTierDisplay.innerHTML = "";
@@ -205,7 +205,7 @@ delphox.addEventListener("mousemove", function(){
 
 var samurott = document.getElementById("samurott");
 
-samurott.addEventListener("mousemove", function(){
+samurott.addEventListener("mousemove", function() {
     sTierDisplay.innerHTML = "";
     aTierDisplay.innerHTML = "";
     bTierDisplay.innerHTML = "";
@@ -221,7 +221,7 @@ var pokemon4 = document.getElementById("pokemon4");
 var pokemon5 = document.getElementById("pokemon5");
 var megaPokemon = document.getElementById("megaPokemon");
 
-rateTeam.addEventListener("click", function(){
+rateTeam.addEventListener("click", function() {
     var toon1 = 0;
     var toon2 = 0;
     var toon3 = 0;
@@ -229,54 +229,359 @@ rateTeam.addEventListener("click", function(){
     var toon5 = 0;
     var toon6 = 0;
     var teamRater = document.getElementById("teamRater");
-    
-    if ((pokemon1.value == "Charizard")) {
+
+    if ((pokemon1.value == "Absol") ||
+        (pokemon1.value == "Poliwrath") ||
+        (pokemon1.value == "Primeape") ||
+        (pokemon1.value == "Dodrio") ||
+        (pokemon1.value == "Hitmonchan") ||
+        (pokemon1.value == "Kangaskhan") ||
+        (pokemon1.value == "Omastar") ||
+        (pokemon1.value == "Kabutops") ||
+        (pokemon1.value == "Articuno") ||
+        (pokemon1.value == "Lanturn") ||
+        (pokemon1.value == "Quagsire") ||
+        (pokemon1.value == "Quilfish") ||
+        (pokemon1.value == "Ludicolo") ||
+        (pokemon1.value == "Sableye") ||
+        (pokemon1.value == "Aggron") ||
+        (pokemon1.value == "Manectric") ||
+        (pokemon1.value == "Roselia") ||
+        (pokemon1.value == "Claydol") ||
+        (pokemon1.value == "Regirock") ||
+        (pokemon1.value == "Gastrodon") ||
+        (pokemon1.value == "Skuntank") ||
+        (pokemon1.value == "Spiritomb") ||
+        (pokemon1.value == "Froslass") ||
+        (pokemon1.value == "Mesprit") ||
+        (pokemon1.value == "Stoutland") ||
+        (pokemon1.value == "Liepard") ||
+        (pokemon1.value == "Audino") ||
+        (pokemon1.value == "Lilligant") ||
+        (pokemon1.value == "Carracosta") ||
+        (pokemon1.value == "Jellicent") ||
+        (pokemon1.value == "Eelektross") ||
+        (pokemon1.value == "Golurk") ||
+        (pokemon1.value == "Aurorus") ||
+        (pokemon1.value == "Oricorio-Sensu") ||
+        (pokemon1.value == "Lycanroc") ||
+        (pokemon1.value == "Mudsdale") ||
+        (pokemon1.value == "Lurantis") ||
+        (pokemon1.value == "Silvally-Fairy") ||
+        (pokemon1.value == "Drampa") ||
+        (pokemon1.value == "Raichu-Alola") ||
+        (pokemon1.value == "Sandslash-Alola") ||
+        (pokemon1.value == "Clefairy") ||
+        (pokemon1.value == "Dugtrio-Alola") ||
+        (pokemon1.value == "Persian-Alola") ||
+        (pokemon1.value == "Haunter") ||
+        (pokemon1.value == "Scyther") ||
+        (pokemon1.value == "Sableye-Mega") ||
+        (pokemon1.value == "Aggron-Mega") ||
+        (pokemon1.value == "Manectric-Mega") ||
+        (pokemon1.value == "Rotom-Frost") ||
+        (pokemon1.value == "Audino-Mega") ||
+        (pokemon1.value == "Absol-Mega") ||
+        (pokemon1.value == "Gurdurr") ||
+        (pokemon1.value == "absol") ||
+        (pokemon1.value == "poliwrath") ||
+        (pokemon1.value == "primeape") ||
+        (pokemon1.value == "dodrio") ||
+        (pokemon1.value == "hitmonchan") ||
+        (pokemon1.value == "kangaskhan") ||
+        (pokemon1.value == "omastar") ||
+        (pokemon1.value == "kabutops") ||
+        (pokemon1.value == "articuno") ||
+        (pokemon1.value == "lanturn") ||
+        (pokemon1.value == "quagsire") ||
+        (pokemon1.value == "quilfish") ||
+        (pokemon1.value == "ludicolo") ||
+        (pokemon1.value == "sableye") ||
+        (pokemon1.value == "aggron") ||
+        (pokemon1.value == "manectric") ||
+        (pokemon1.value == "roselia") ||
+        (pokemon1.value == "claydol") ||
+        (pokemon1.value == "regirock") ||
+        (pokemon1.value == "gastrodon") ||
+        (pokemon1.value == "skuntank") ||
+        (pokemon1.value == "spiritomb") ||
+        (pokemon1.value == "froslass") ||
+        (pokemon1.value == "mesprit") ||
+        (pokemon1.value == "stoutland") ||
+        (pokemon1.value == "liepard") ||
+        (pokemon1.value == "audino") ||
+        (pokemon1.value == "lilligant") ||
+        (pokemon1.value == "carracosta") ||
+        (pokemon1.value == "jellicent") ||
+        (pokemon1.value == "eelektross") ||
+        (pokemon1.value == "golurk") ||
+        (pokemon1.value == "aurorus") ||
+        (pokemon1.value == "oricorio-sensu") ||
+        (pokemon1.value == "lycanroc") ||
+        (pokemon1.value == "mudsdale") ||
+        (pokemon1.value == "lurantis") ||
+        (pokemon1.value == "silvally-fairy") ||
+        (pokemon1.value == "drampa") ||
+        (pokemon1.value == "raichu-alola") ||
+        (pokemon1.value == "sandslash-alola") ||
+        (pokemon1.value == "clefairy") ||
+        (pokemon1.value == "dugtrio-alola") ||
+        (pokemon1.value == "persian-alola") ||
+        (pokemon1.value == "haunter") ||
+        (pokemon1.value == "scyther") ||
+        (pokemon1.value == "sableye-mega") ||
+        (pokemon1.value == "aggron-mega") ||
+        (pokemon1.value == "manectric-mega") ||
+        (pokemon1.value == "rotom-frost") ||
+        (pokemon1.value == "audino-mega") ||
+        (pokemon1.value == "absol-mega") ||
+        (pokemon1.value == "gurdurr") ||
+        (pokemon1.value == "sableye-Mega") ||
+        (pokemon1.value == "Sableye-mega") ||
+        (pokemon1.value == "Aggron-mega") ||
+        (pokemon1.value == "aggron-Mega") ||
+        (pokemon1.value == "Manectric-mega") ||
+        (pokemon1.value == "manectric-Mega") ||
+        (pokemon1.value == "Rotom-frost") ||
+        (pokemon1.value == "rotom-Frost") ||
+        (pokemon1.value == "Audino-mega") ||
+        (pokemon1.value == "audino-Mega") ||
+        (pokemon1.value == "Absol-mega") ||
+        (pokemon1.value == "absol-Mega") ||
+        (pokemon1.value == "oricorio-Sensu") ||
+        (pokemon1.value == "Oricorio-sensu") ||
+        (pokemon1.value == "silvally-Fairy") ||
+        (pokemon1.value == "Silvally-fairy") ||
+        (pokemon1.value == "Raichu-alola") ||
+        (pokemon1.value == "raichu-Alola") ||
+        (pokemon1.value == "sandslash-Alola") ||
+        (pokemon1.value == "Sandslash-alola") ||
+        (pokemon1.value == "dugtrio-Alola") ||
+        (pokemon1.value == "Dugtrio-alola") ||
+        (pokemon1.value == "Persian-alola") ||
+        (pokemon1.value == "persian-Alola")
+    ) {
+
+        toon1 = 1;
+
+    }
+    if ((pokemon1.value == "Charizard") ||
+        (pokemon1.value == "Exeggutor-Alola") ||
+        (pokemon1.value == "Charizard-Mega-X") ||
+        (pokemon1.value == "Charizard-Mega-Y") ||
+        (pokemon1.value == "Tauros") ||
+        (pokemon1.value == "Typhlosion") ||
+        (pokemon1.value == "Gallade") ||
+        (pokemon1.value == "Gallade-Mega") ||
+        (pokemon1.value == "Samurott") ||
+        (pokemon1.value == "Sawk") ||
+        (pokemon1.value == "Archeops") ||
+        (pokemon1.value == "Pyroar") ||
+        (pokemon1.value == "Aromatisse") ||
+        (pokemon1.value == "Minior") ||
+        (pokemon1.value == "Blastoise") ||
+        (pokemon1.value == "Golbat") ||
+        (pokemon1.value == "Vileplume") ||
+        (pokemon1.value == "Slowbro") ||
+        (pokemon1.value == "Kingler") ||
+        (pokemon1.value == "Hitmonlee") ||
+        (pokemon1.value == "Weezing") ||
+        (pokemon1.value == "Rhydon") ||
+        (pokemon1.value == "Vaporeon") ||
+        (pokemon1.value == "Aerodactyl") ||
+        (pokemon1.value == "Aerodactyl-Mega") ||
+        (pokemon1.value == "Xatu") ||
+        (pokemon1.value == "Slowking") ||
+        (pokemon1.value == "Steelix") ||
+        (pokemon1.value == "Steelix-Mega") ||
+        (pokemon1.value == "Sneasel") ||
+        (pokemon1.value == "Piloswine") ||
+        (pokemon1.value == "Houndoom") ||
+        (pokemon1.value == "Houndoom-Mega") ||
+        (pokemon1.value == "Hitmontop") ||
+        (pokemon1.value == "Miltank") ||
+        (pokemon1.value == "Sceptile") ||
+        (pokemon1.value == "Sceptile-Mega") ||
+        (pokemon1.value == "Hariyama") ||
+        (pokemon1.value == "Medicham") ||
+        (pokemon1.value == "Medicham-Mega") ||
+        (pokemon1.value == "Torterra") ||
+        (pokemon1.value == "Ambipom") ||
+        (pokemon1.value == "Mismagius") ||
+        (pokemon1.value == "Magmortar") ||
+        (pokemon1.value == "Rotom") ||
+        (pokemon1.value == "Seismitoad") ||
+        (pokemon1.value == "Whimsicott") ||
+        (pokemon1.value == "Scrafty") ||
+        (pokemon1.value == "Sigilyph") ||
+        (pokemon1.value == "Garbodor") ||
+        (pokemon1.value == "Cinccino") ||
+        (pokemon1.value == "Vanilluxe") ||
+        (pokemon1.value == "Ferroseed") ||
+        (pokemon1.value == "Klinklang") ||
+        (pokemon1.value == "Cryogonal") ||
+        (pokemon1.value == "Accelgor") ||
+        (pokemon1.value == "Druddigon") ||
+        (pokemon1.value == "Braviary") ||
+        (pokemon1.value == "Delphox") ||
+        (pokemon1.value == "Vivillon") ||
+        (pokemon1.value == "Malamar") ||
+        (pokemon1.value == "Clawitzer") ||
+        (pokemon1.value == "Heliolisk") ||
+        (pokemon1.value == "Diancie") ||
+        (pokemon1.value == "Decidueye") ||
+        (pokemon1.value == "Incineroar") ||
+        (pokemon1.value == "Vikavolt") ||
+        (pokemon1.value == "Comfrey") ||
+        (pokemon1.value == "Passimian") ||
+        (pokemon1.value == "Palossand") ||
+        (pokemon1.value == "Sivally-Steel") ||
+        (pokemon1.value == "Togedemaru") ||
+        (pokemon1.value == "Dhelmise") ||
+        (pokemon1.value == "Guzzlord") ||
+        (pokemon1.value == "charizard") ||
+        (pokemon1.value == "exeggutor-alola") ||
+        (pokemon1.value == "charizard-mega-x") ||
+        (pokemon1.value == "charizard-mega-y") ||
+        (pokemon1.value == "tauros") ||
+        (pokemon1.value == "typhlosion") ||
+        (pokemon1.value == "gallade") ||
+        (pokemon1.value == "gallade-mega") ||
+        (pokemon1.value == "samurott") ||
+        (pokemon1.value == "sawk") ||
+        (pokemon1.value == "archeops") ||
+        (pokemon1.value == "pyroar") ||
+        (pokemon1.value == "aromatisse") ||
+        (pokemon1.value == "minior") ||
+        (pokemon1.value == "blastoise") ||
+        (pokemon1.value == "golbat") ||
+        (pokemon1.value == "vileplume") ||
+        (pokemon1.value == "slowbro") ||
+        (pokemon1.value == "kingler") ||
+        (pokemon1.value == "hitmonlee") ||
+        (pokemon1.value == "weezing") ||
+        (pokemon1.value == "rhydon") ||
+        (pokemon1.value == "vaporeon") ||
+        (pokemon1.value == "aerodactyl") ||
+        (pokemon1.value == "aerodactyl-mega") ||
+        (pokemon1.value == "xatu") ||
+        (pokemon1.value == "slowking") ||
+        (pokemon1.value == "steelix") ||
+        (pokemon1.value == "steelix-mega") ||
+        (pokemon1.value == "sneasel") ||
+        (pokemon1.value == "piloswine") ||
+        (pokemon1.value == "houndoom") ||
+        (pokemon1.value == "houndoom-mega") ||
+        (pokemon1.value == "hitmontop") ||
+        (pokemon1.value == "miltank") ||
+        (pokemon1.value == "sceptile") ||
+        (pokemon1.value == "sceptile-mega") ||
+        (pokemon1.value == "hariyama") ||
+        (pokemon1.value == "medicham") ||
+        (pokemon1.value == "medicham-mega") ||
+        (pokemon1.value == "torterra") ||
+        (pokemon1.value == "ambipom") ||
+        (pokemon1.value == "mismagius") ||
+        (pokemon1.value == "magmortar") ||
+        (pokemon1.value == "rotom") ||
+        (pokemon1.value == "seismitoad") ||
+        (pokemon1.value == "whimsicott") ||
+        (pokemon1.value == "scrafty") ||
+        (pokemon1.value == "sigilyph") ||
+        (pokemon1.value == "garbodor") ||
+        (pokemon1.value == "cinccino") ||
+        (pokemon1.value == "vanilluxe") ||
+        (pokemon1.value == "ferroseed") ||
+        (pokemon1.value == "klinklang") ||
+        (pokemon1.value == "cryogonal") ||
+        (pokemon1.value == "accelgor") ||
+        (pokemon1.value == "druddigon") ||
+        (pokemon1.value == "braviary") ||
+        (pokemon1.value == "delphox") ||
+        (pokemon1.value == "vivillon") ||
+        (pokemon1.value == "malamar") ||
+        (pokemon1.value == "clawitzer") ||
+        (pokemon1.value == "heliolisk") ||
+        (pokemon1.value == "diancie") ||
+        (pokemon1.value == "decidueye") ||
+        (pokemon1.value == "incineroar") ||
+        (pokemon1.value == "vikavolt") ||
+        (pokemon1.value == "comfrey") ||
+        (pokemon1.value == "passimian") ||
+        (pokemon1.value == "palossand") ||
+        (pokemon1.value == "sivally-steel") ||
+        (pokemon1.value == "togedemaru") ||
+        (pokemon1.value == "dhelmise") ||
+        (pokemon1.value == "guzzlord") ||
+        (pokemon1.value == "exeggutor-Alola") ||
+        (pokemon1.value == "Exeggutor-alola") ||
+        (pokemon1.value == "Charizard-mega-x") ||
+        (pokemon1.value == "Charizard-Mega-x") ||
+        (pokemon1.value == "Charizard-mega-X") ||
+        (pokemon1.value == "charizard-Mega-x") ||
+        (pokemon1.value == "charizard-Mega-X") ||
+        (pokemon1.value == "charizard-mega-X") ||
+        (pokemon1.value == "Charizard-mega-y") ||
+        (pokemon1.value == "Charizard-Mega-y") ||
+        (pokemon1.value == "Charizard-mega-Y") ||
+        (pokemon1.value == "charizard-Mega-y") ||
+        (pokemon1.value == "Aerodactyl-mega") ||
+        (pokemon1.value == "aerodactyl-Mega") ||
+        (pokemon1.value == "Steelix-mega") ||
+        (pokemon1.value == "steelix-Mega") ||
+        (pokemon1.value == "Houndoom-mega") ||
+        (pokemon1.value == "houndoom-Mega") ||
+        (pokemon1.value == "Sceptile-mega") ||
+        (pokemon1.value == "sceptile-Mega") ||
+        (pokemon1.value == "Medicham-mega") ||        
+        (pokemon1.value == "medicham-Mega") ||        
+        (pokemon1.value == "Sivally-steel") ||
+        (pokemon1.value == "sivally-Steel") ||
+        (pokemon1.value == "charizard-Mega-Y") ||
+        (pokemon1.value == "charizard-mega-Y") ||
+        (pokemon1.value == "Gallade-mega") ||
+        (pokemon1.value == "gallade-Mega")
+    ) {
+
         toon1 = 2;
+
     }
-    else if (pokemon1.value == "Blastoise") {
+    else if ((pokemon1.value == "Blastoise")) {
         toon1 = 3;
     }
-    if ((pokemon2.value == "Charizard")) {
-        toon2 = 2;
+    else if ((pokemon1.value == "Venusaur")) {
+        toon1 = 4;
     }
-    else if (pokemon2.value == "Blastoise") {
-        toon2 = 3;
+    else if ((pokemon1.value == "Moltres")) {
+        toon1 = 5;
     }
-    if ((pokemon3.value == "Charizard")) {
-        toon3 = 2;
+    else if ((pokemon1.value == "Zapdos")) {
+        toon1 = 6;
     }
-    else if (pokemon3.value == "Blastoise") {
-        toon3 = 3;
+    else if ((pokemon1.value == "Mewtwo")) {
+        toon1 = 7;
     }
-    if ((pokemon4.value == "Charizard")) {
-        toon4 = 2;
+    else {
+        toon1 = 0;
     }
-    else if (pokemon4.value == "Blastoise") {
-        toon1 = 3;
+
+    if ((megaPokemon.value == "Mega Rayquaza")) {
+        toon6 = 9;
     }
-    if ((pokemon5.value == "Charizard")) {
-        toon5 = 2;
-    }
-    else if (pokemon5.value == "Blastoise") {
-        toon5 = 3;
-    }
-    if (megaPokemon.value == "Mega Rayquaza") {
-        toon6 = 8;
-    }
-    
+
     if (toon1 + toon2 + toon3 + toon4 + toon5 + toon6 >= 36) {
-        teamRater.innerHTML = "You have an excellent team and you can take on the best teams.";
+        teamRater.innerHTML = "Your team is S-Tier. You have an excellent team and you can take on the best teams competitively.";
     }
     if ((toon1 + toon2 + toon3 + toon4 + toon5 + toon6 <= 35) && (toon1 + toon2 + toon3 + toon4 + toon5 + toon6 >= 29)) {
-        teamRater.innerHTML = "You have a good team that is competitive.";
+        teamRater.innerHTML = "Your team is A-Tier. You have a good team that is competitive.";
     }
     if ((toon1 + toon2 + toon3 + toon4 + toon5 + toon6 <= 28) && (toon1 + toon2 + toon3 + toon4 + toon5 + toon6 >= 22)) {
-        teamRater.innerHTML = "You have a decent team that can become competitive.";
+        teamRater.innerHTML = "Your team is B-Tier. You have a decent team that can become competitive.";
     }
     if ((toon1 + toon2 + toon3 + toon4 + toon5 + toon6 <= 21) && (toon1 + toon2 + toon3 + toon4 + toon5 + toon6 >= 15)) {
-        teamRater.innerHTML = "You have a mediocre team that will struggle competitively.";
+        teamRater.innerHTML = "Your team is C-Tier. You have a mediocre team that will struggle competitively.";
     }
     if ((toon1 + toon2 + toon3 + toon4 + toon5 + toon6 <= 14)) {
-        teamRater.innerHTML = "You have a bad team that isn't competitive at all.";
+        teamRater.innerHTML = "Your team is D-Tier. You have a bad team that isn't competitive at all.";
     }
 });
