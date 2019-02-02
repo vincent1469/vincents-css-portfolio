@@ -56,13 +56,13 @@
                 A
             </td>
             <td>
-                <a href="https://bulbapedia.bulbagarden.net/wiki/Feraligatr_(Pok%C3%A9mon)" target="_blank"><img id="feraligatr" src="checkpoint/images/feraligatr.gif" width="100px"></img></a>
+                <a href="https://bulbapedia.bulbagarden.net/wiki/Feraligatr_(Pok%C3%A9mon)" target="_blank"><img id="feraligatr" src="checkpoint/images/feraligatr.gif" height="100px"></img></a>
             </td>
             <td>
                 <a href="https://bulbapedia.bulbagarden.net/wiki/Swampert_(Pok%C3%A9mon)" target="_blank"><img id="swampert" src="checkpoint/images/swampert.gif" width="100px"></img></a>
             </td>
             <td>
-                <a href="https://bulbapedia.bulbagarden.net/wiki/Serperior_(Pok%C3%A9mon)" target="_blank"><img id="serperior" src="checkpoint/images/serperior.gif" width="100px"></img></a>
+                <a href="https://bulbapedia.bulbagarden.net/wiki/Serperior_(Pok%C3%A9mon)" target="_blank"><img id="serperior" src="checkpoint/images/serperior.gif" height="100px"></img></a>
             </td>
             <td>
                 <a href="https://bulbapedia.bulbagarden.net/wiki/Primarina_(Pok%C3%A9mon)" target="_blank"><img id="primarina" src="checkpoint/images/primarina.gif" height="100px"></img></a>
@@ -145,7 +145,7 @@
     <div id="dTierDisplay" class="display"></div>
     <p></p>
     <h2>
-        What is your Pokemon Team? 
+        Enter your Pokemon Team! 
     </h2>
     <p></p>
     <h3>
@@ -154,10 +154,12 @@
     <ul>
         <li>The ratings are based off the official competitive tiers.</li>
         <li>Please make sure to spell everything correctly.</li>
-        <li>If you enter a Mega Pokemon in a non-Mega slot, it will be treated as the original Pokemon.</li>
+        <li>Also, turn off Caps lock.</li>
+        <li>If you enter a Mega Pokemon in a non-Mega slot, it will be treated as the original non-Mega Pokemon instead.</li>
         <li>Alternatively, you can include non-Mega Pokemon in the Mega Pokemon slot.</li>
-        <li>Pokemon with separate forms should be entered as name-form, for example, Rayquaza-Mega, Deoxys-Attack, or Sandslash-Alola.</li>
-        <li>Mega Mewtwo and Mega Charizard are written as Charizard-Mega-X, Charizard-Mega-Y, Mewtwo-Mega-X, Mewtwo-Mega-Y.</li>
+        <li>Pokemon with separate forms should be entered as name-form, for example, "Necrozma-Ultra", "Deoxys-Attack", or "Sivally-Fairy". (You do not have to do this with Mega Pokemon and Alolan Pokemon, although you can).</li>
+        <li>Specify the Mega Form for Mega Mewtwo and Mega Charizard, for example, "Mewtwo-Mega-Y" or "Mega Charizard X"</li>
+        <li>Finally, do not use Arceus' separate forms, although you can use Silvally's separate forms. You may still use Arceus itself. (All of Arceus' forms are the same tier but not all of Silvally's forms are).</li>
     </ul>
     <p></p>
     <input class="pokemon" id="megaPokemon" placeholder = "Mega Pokemon"><br>
@@ -174,7 +176,19 @@
     <p></p>
     <button class="pokemon" id="rateTeam">Rate My Team!</button>
     <p></p>
-    <div class="pokemon" id="teamRater">This will be your Team Rating.</div>
+    <div class="pokemon" id="firstPokemon">This will be your 1st Pokemon's Rating.</div>
+    <p></p>
+    <div class="pokemon" id="secondPokemon">This will be your 2nd Pokemon's Rating.</div>
+    <p></p>
+    <div class="pokemon" id="thirdPokemon">This will be your 3rd Pokemon's Rating.</div>
+    <p></p>
+    <div class="pokemon" id="fourthPokemon">This will be your 4th Pokemon's Rating.</div>
+    <p></p>
+    <div class="pokemon" id="fifthPokemon">This will be your 5th Pokemon's Rating.</div>
+    <p></p>
+    <div class="pokemon" id="sixthPokemon">This will be your 6th Pokemon's Rating.</div>
+    <p></p>
+    <div class="pokemon" id="teamRater" style="font-weight:bold">This will be your Team Rating.</div>
     <p></p>
     <script src="checkpoint/ip.js"></script>
     <div id="top-right">Vincent Chu</div>
