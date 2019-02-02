@@ -140,7 +140,7 @@ chesnaught.addEventListener("mousemove", function() {
     aTierDisplay.innerHTML = "";
     dTierDisplay.innerHTML = "";
     cTierDisplay.innerHTML = "";
-    bTierDisplay.innerHTML = "Chesnaught is incredibly bulky, with 122 defense. Its ability Bulletproof can be used situationally. In addition to that, Chesnaught has 107 attack for it to use powerful physical moves such as Wood Hammer and Drain Punch. Also, its signature move, Spiky Shield, does damage if the opponent makes contact with it. Unfortunately for Chesnaught, hiis Grass/Fighting type has 6 weaknesses, and his 75 special defense and his 64 speed doesn't help.";
+    bTierDisplay.innerHTML = "Chesnaught is incredibly bulky, with 122 defense. Its ability Bulletproof can be used situationally. In addition to that, Chesnaught has 107 attack for it to use powerful physical moves such as Wood Hammer and Drain Punch. Also, its signature move, Spiky Shield, does damage if the opponent makes contact with it. Unfortunately for Chesnaught, his Grass/Fighting type has 6 weaknesses, and his 75 special defense and his 64 speed doesn't help.";
 });
 
 var meganium = document.getElementById("meganium");
