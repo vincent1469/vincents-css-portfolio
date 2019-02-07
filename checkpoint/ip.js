@@ -5,17 +5,20 @@ var bTierDisplay = document.getElementById("bTierDisplay");
 var cTierDisplay = document.getElementById("cTierDisplay");
 var dTierDisplay = document.getElementById("dTierDisplay");
 
-// variables for the displays underneath starter pokemon
+// variables for the displays underneath mega pokemon
 var sTierDisplay2 = document.getElementById("sTierDisplay2");
 var aTierDisplay2 = document.getElementById("aTierDisplay2");
 var bTierDisplay2 = document.getElementById("bTierDisplay2");
 var cTierDisplay2 = document.getElementById("cTierDisplay2");
 var dTierDisplay2 = document.getElementById("dTierDisplay2");
 
-// variable for blaziken's description
+// creates variable for the pokemon
 var blaziken = document.getElementById("blaziken");
 
+// waits until mouse hovers over the image
 blaziken.addEventListener("mousemove", function() {
+    
+    // emptys all displays its not associated with
     sTierDisplay2.innerHTML = "";
     aTierDisplay2.innerHTML = "";
     bTierDisplay2.innerHTML = "";
@@ -25,6 +28,8 @@ blaziken.addEventListener("mousemove", function() {
     bTierDisplay.innerHTML = "";
     dTierDisplay.innerHTML = "";
     cTierDisplay.innerHTML = "";
+    
+    // displays the description for the pokemon
     sTierDisplay.innerHTML = "Blaziken is one of the best starter Pokemon because of his ability, Speed Boost. Speed Boost boosts his Speed stat by one stage after each turn, allowing it to outspeed anyone within a few turns. In addition to that, he has 120 attack and 110 special attack, making it a versatile attacker that excels at both Physical and Special attacks.";
 });
 
@@ -1032,29 +1037,40 @@ audinoMega.addEventListener("mousemove", function() {
     cTierDisplay.innerHTML = "";
 });
 
+// creates variable for button
 var rateTeam = document.getElementById("rateTeam");
 
+// waits for button to be clicked on
 rateTeam.addEventListener("click", function() {
+    
+    // creates variables for the six pokemon slots and converts them to lowercase
     var megaPokemon = document.getElementById("megaPokemon").value.toLowerCase();
     var pokemon1 = document.getElementById("pokemon1").value.toLowerCase();
     var pokemon2 = document.getElementById("pokemon2").value.toLowerCase();
     var pokemon3 = document.getElementById("pokemon3").value.toLowerCase();
     var pokemon4 = document.getElementById("pokemon4").value.toLowerCase();
     var pokemon5 = document.getElementById("pokemon5").value.toLowerCase();
+    
+    // set pokemon tier to 0
     var toon1 = 0;
     var toon2 = 0;
     var toon3 = 0;
     var toon4 = 0;
     var toon5 = 0;
     var toon6 = 0;
+    
+    // creates variables for the six pokemon displays
     var firstPokemon = document.getElementById("firstPokemon");
     var secondPokemon = document.getElementById("secondPokemon");
     var thirdPokemon = document.getElementById("thirdPokemon");
     var fourthPokemon = document.getElementById("fourthPokemon");
     var fifthPokemon = document.getElementById("fifthPokemon");
     var sixthPokemon = document.getElementById("sixthPokemon");
+    
+    // creates variables for the team rating
     var teamRater = document.getElementById("teamRater");
-
+    
+    // searches for a pokemon in the associated slot in the official PU (homophone for pee yew) tier
     if (
         (megaPokemon == "oricorio-sensu") ||
         (megaPokemon == "oricorio sensu") ||
@@ -1119,10 +1135,15 @@ rateTeam.addEventListener("click", function() {
         (megaPokemon == "gurdurr")
     ) {
 
+        // a PU pokemon is only worth one point
         toon6 = 1;
+        
+        // updates display for the first pokemon's rating
         firstPokemon.innerHTML = "Your first Pokemon sucks and there are many Pokemon that does this Pokemon's job better that you could have chosen instead.";
 
     }
+    
+    // searches for a pokemon in the associated slot in the NU (Never Used) tier
     else if (
         (megaPokemon == "exeggutor-alola") ||
         (megaPokemon == "alolan exeggutor") ||
@@ -1197,12 +1218,16 @@ rateTeam.addEventListener("click", function() {
         (megaPokemon == "sivally Steel")
     ) {
 
+        // a NU pokemon is worth 2  points
         toon6 = 2;
+        
+        // updates display for the associated pokemon's rating
         firstPokemon.innerHTML = "Your first Pokemon isn't good competitively can only be used situationally.";
 
     }
+    
+    // searches for a pokemon in the associated slot in the official RU (Rarely Used) tier
     else if (
-
         (megaPokemon == "marowak-alola") ||
         (megaPokemon == "alolan marowak") ||
         (megaPokemon == "marowak alola") ||
@@ -1283,10 +1308,15 @@ rateTeam.addEventListener("click", function() {
         (megaPokemon == "mega-abomasnow")
     ) {
 
+        // a RU pokemon is worth 3 points
         toon6 = 3;
+        
+        // updates display of the associated pokemon's rating
         firstPokemon.innerHTML = "Your first Pokemon is mediocre and will be difficult to use competitively.";
 
     }
+    
+    // searches for a pokemon in the associated slot in the official UU (Under Used) tier
     else if (
         (megaPokemon == "muk-alola") ||
         (megaPokemon == "alolan muk") ||
@@ -1365,11 +1395,16 @@ rateTeam.addEventListener("click", function() {
         (megaPokemon == "mega blastoise") ||
         (megaPokemon == "mega-blastoise")
     ) {
-
-        toon6 = 4;
+        
+        // a UU pokemon is worth 4 points
+        toon6 = 4
+        
+        // updates display for the associated pokemon's rating
         firstPokemon.innerHTML = "Your first Pokemon is a decent Pokemon that can be used competitively.";
 
     }
+    
+    // searches for a pokemon in the associated slot in the official OU (Over Used) tier
     else if (
         (megaPokemon == "ninetales-alola") ||
         (megaPokemon == "alolan ninetales") ||
@@ -1507,11 +1542,16 @@ rateTeam.addEventListener("click", function() {
         (megaPokemon == "mega steelix") ||
         (megaPokemon == "mega-steelix")
     ) {
-
+        
+        // a OU pokemon is worth 5 points 
         toon6 = 5;
+        
+        // updates display for the first pokemon's rating
         firstPokemon.innerHTML = "Your first Pokemon is a great Pokemon that competes with others well.";
 
     }
+    
+    // searches for a pokemon in the associated slot in the official Uber tier
     else if (
         (megaPokemon == "mewtwo") ||
         (megaPokemon == "ho-oh") ||
@@ -1658,11 +1698,16 @@ rateTeam.addEventListener("click", function() {
         (megaPokemon == "mega sableye") ||
         (megaPokemon == "mega-sableye")
     ) {
-
+        
+        // a Uber pokemon is worth 6 points
         toon6 = 6;
+        
+        // updates display for the first pokemon's rating
         firstPokemon.innerHTML = "Your first Pokemon is an excellent top-tier Pokemon among the best.";
 
     }
+    
+    // searches for a pokemon in the associated slot in the official Uber tier that is mega-evolved
     else if (
         (megaPokemon == "blaziken-mega") ||
         (megaPokemon == "blaziken mega") ||
@@ -1702,10 +1747,15 @@ rateTeam.addEventListener("click", function() {
         (megaPokemon == "mewtwo-mega-y")
     ) {
 
+        // a mega Uber pokemon is worth 7 points
         toon6 = 7;
+        
+        // updates the display of the first pokemon's rating
         firstPokemon.innerHTML = "Your first Pokemon is an excellent top-tier Pokemon among the best.";
 
     }
+    
+    // searches for a pokemon in the associated slot in the official AG (Anything Goes) tier
     else if (
         (megaPokemon == "mega rayquaza") ||
         (megaPokemon == "rayquaza mega") ||
@@ -1713,13 +1763,33 @@ rateTeam.addEventListener("click", function() {
         (megaPokemon == "rayquaza-mega")
     ) {
 
+        // a AG pokemon is worth 8 points
         toon6 = 8;
+        
+        // updates the display of the first pokemon's rating
         firstPokemon.innerHTML = "Your first Pokemon is broken and will completely destroy the metagame.";
 
     }
+    
+    // checks if the associated slot is empty
+    else if (
+        (megaPokemon.length == 0)
+    ) {
+        
+        // an empty slot is worth 0 points
+        toon6 = 0;
+        
+        // updates the display of the first pokemon's rating
+        firstPokemon.innerHTML = "Please enter a Pokemon in the first slot.";
+    }
+    
+    // checks if there is something that isn't spelled correctly or its unranked 
     else {
 
+        // a misspelled or unranked pokemon is worth 0 points
         toon6 = 0;
+        
+        // updates the display of the first pokemon's rating
         firstPokemon.innerHTML = "Sorry, your first Pokemon is either misspelled or unranked. Please check your spelling and/or your Pokemon choices.";
 
     }
@@ -2282,6 +2352,16 @@ rateTeam.addEventListener("click", function() {
         secondPokemon.innerHTML = "Your second Pokemon is an excellent top-tier Pokemon among the best.";
 
     }
+    
+    else if (
+        (pokemon1.length == 0)
+    ) {
+        
+        toon1 = 0;
+        pokemon1.innerHTML = "Please enter a Pokemon in the second slot.";
+        
+    }
+    
     else {
 
         toon1 = 0;
@@ -2847,6 +2927,16 @@ rateTeam.addEventListener("click", function() {
         thirdPokemon.innerHTML = "Your third Pokemon is an excellent top-tier Pokemon among the best.";
 
     }
+    
+    else if (
+        (pokemon2.length == 0)
+    ) {
+        
+        toon2 = 0;
+        pokemon2.innerHTML = "Please enter a Pokemon in the third slot.";
+        
+    }
+    
     else {
 
         toon2 = 0;
@@ -3412,6 +3502,16 @@ rateTeam.addEventListener("click", function() {
         fourthPokemon.innerHTML = "Your fourth Pokemon is an excellent top-tier Pokemon among the best.";
 
     }
+    
+    else if (
+        (pokemon3.length == 0)
+    ) {
+        
+        toon3 = 0;
+        pokemon3.innerHTML = "Please enter a Pokemon in the fourth slot.";
+        
+    }
+    
     else {
 
         toon3 = 0;
@@ -3977,6 +4077,16 @@ rateTeam.addEventListener("click", function() {
         fifthPokemon.innerHTML = "Your fifth Pokemon is an excellent top-tier Pokemon among the best.";
 
     }
+    
+    else if (
+        (pokemon4.length == 0)
+    ) {
+        
+        toon4 = 0;
+        pokemon4.innerHTML = "Please enter a Pokemon in the fifth slot.";
+        
+    }
+    
     else {
 
         toon4 = 0;
@@ -4542,14 +4652,27 @@ rateTeam.addEventListener("click", function() {
         sixthPokemon.innerHTML = "Your sixth Pokemon is an excellent top-tier Pokemon among the best.";
 
     }
+    
+    else if (
+        (pokemon5.length == 0)
+    ) {
+        
+        toon5 = 0;
+        pokemon5.innerHTML = "Please enter a Pokemon in the sixth slot.";
+        
+    }
+    
     else {
 
         toon5 = 0;
         sixthPokemon.innerHTML = "Sorry, your sixth Pokemon is either misspelled or unranked. Please check your spelling and/or your Pokemon choices.";
 
     }
-
+    
+    // adds up all of the points for the team and checks which category its in
     if (toon1 + toon2 + toon3 + toon4 + toon5 + toon6 >= 31) {
+        
+        // updates display for the team rating
         teamRater.innerHTML = "Your team is S-Tier. You have an excellent team and you can take on the best teams competitively.";
     }
     if ((toon1 + toon2 + toon3 + toon4 + toon5 + toon6 <= 31) && (toon1 + toon2 + toon3 + toon4 + toon5 + toon6 >= 25)) {
@@ -4563,5 +4686,8 @@ rateTeam.addEventListener("click", function() {
     }
     if ((toon1 + toon2 + toon3 + toon4 + toon5 + toon6 <= 10)) {
         teamRater.innerHTML = "Your team is D-Tier. You have a bad team that isn't competitive at all.";
+    }
+    if ((toon1 + toon2 + toon3 + toon4 + toon5 + toon6 == 0)) {
+        teamRater.innerHTML = "Please enter at least one Pokemon.";
     }
 });
