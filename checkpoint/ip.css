@@ -62,21 +62,25 @@ p {
     width: 100px;
     height: 100px;
 }
+
 .a-tier {
     background-color: purple;
     width: 100px;
     height: 100px;
 }
+
 .b-tier {
     background-color: #87cefa;
     width: 100px;
     height: 100px;
 }
+
 .c-tier {
     background-color: green;
     width: 100px;
     height: 100px;
 }
+
 .d-tier {
     background-color: grey;
     width: 100px;
@@ -95,4 +99,9 @@ p {
 
 .pokemon {
     margin-left: 5%;
+}
+
+.header {
+    color: white;
+    font-size: 40px;
 }

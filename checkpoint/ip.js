@@ -1059,6 +1059,14 @@ rateTeam.addEventListener("click", function() {
     var toon5 = 0;
     var toon6 = 0;
     
+    // creates variables for the images
+    var img1 = document.getElementById("img1");
+    var img2 = document.getElementById("img2");
+    var img3 = document.getElementById("img3");
+    var img4 = document.getElementById("img4");
+    var img5 = document.getElementById("img5");
+    var img6 = document.getElementById("img6");
+    
     // creates variables for the six pokemon displays
     var firstPokemon = document.getElementById("firstPokemon");
     var secondPokemon = document.getElementById("secondPokemon");
@@ -1140,7 +1148,10 @@ rateTeam.addEventListener("click", function() {
         
         // updates display for the first pokemon's rating
         firstPokemon.innerHTML = "Your first Pokemon sucks and there are many Pokemon that does this Pokemon's job better that you could have chosen instead.";
-
+        
+        // updates image
+        img1.src= "https://www.smogon.com/dex/media/sprites/xy/" + megaPokemon + ".gif";
+        
     }
     
     // searches for a pokemon in the associated slot in the NU (Never Used) tier
@@ -1223,6 +1234,8 @@ rateTeam.addEventListener("click", function() {
         
         // updates display for the associated pokemon's rating
         firstPokemon.innerHTML = "Your first Pokemon isn't good competitively can only be used situationally.";
+        
+        img1.src= "https://www.smogon.com/dex/media/sprites/xy/" + megaPokemon + ".gif";
 
     }
     
@@ -1313,6 +1326,8 @@ rateTeam.addEventListener("click", function() {
         
         // updates display of the associated pokemon's rating
         firstPokemon.innerHTML = "Your first Pokemon is mediocre and will be difficult to use competitively.";
+        
+        img1.src= "https://www.smogon.com/dex/media/sprites/xy/" + megaPokemon + ".gif";
 
     }
     
@@ -1401,6 +1416,8 @@ rateTeam.addEventListener("click", function() {
         
         // updates display for the associated pokemon's rating
         firstPokemon.innerHTML = "Your first Pokemon is a decent Pokemon that can be used competitively.";
+        
+        img1.src= "https://www.smogon.com/dex/media/sprites/xy/" + megaPokemon + ".gif";
 
     }
     
@@ -1548,6 +1565,8 @@ rateTeam.addEventListener("click", function() {
         
         // updates display for the first pokemon's rating
         firstPokemon.innerHTML = "Your first Pokemon is a great Pokemon that competes with others well.";
+        
+        img1.src= "https://www.smogon.com/dex/media/sprites/xy/" + megaPokemon + ".gif";
 
     }
     
@@ -1604,17 +1623,13 @@ rateTeam.addEventListener("click", function() {
         (megaPokemon == "yveltal") ||
         (megaPokemon == "solgaleo") ||
         (megaPokemon == "darkrai") ||
-        (megaPokemon == "necrozma-ultra") ||
-        (megaPokemon == "ultra-necrozma") ||
-        (megaPokemon == "necrozma ultra") ||
-        (megaPokemon == "ultra necrozma") ||
-        (megaPokemon == "necrozma-dusk-mane") ||
+        (megaPokemon == "necrozma-dusk mane") ||
         (megaPokemon == "dusk-mane-necrozma") ||
-        (megaPokemon == "necrozma dusk mane") ||
+        (megaPokemon == "necrozma-dusk-mane") ||
         (megaPokemon == "dusk mane necrozma") ||
-        (megaPokemon == "necrozma-dawn-wings") ||
+        (megaPokemon == "necrozma-dawn wings") ||
         (megaPokemon == "dawn-wings-necrozma") ||
-        (megaPokemon == "necrozma dawn wings") ||
+        (megaPokemon == "necrozma-dawn-wings") ||
         (megaPokemon == "dawn wings necrozma") ||
         (megaPokemon == "lunala") ||
         (megaPokemon == "gallade-mega") ||
@@ -1704,6 +1719,8 @@ rateTeam.addEventListener("click", function() {
         
         // updates display for the first pokemon's rating
         firstPokemon.innerHTML = "Your first Pokemon is an excellent top-tier Pokemon among the best.";
+        
+        img1.src= "https://www.smogon.com/dex/media/sprites/xy/" + megaPokemon + ".gif";
 
     }
     
@@ -1752,6 +1769,8 @@ rateTeam.addEventListener("click", function() {
         
         // updates the display of the first pokemon's rating
         firstPokemon.innerHTML = "Your first Pokemon is an excellent top-tier Pokemon among the best.";
+        
+        img1.src= "https://www.smogon.com/dex/media/sprites/xy/" + megaPokemon + ".gif";
 
     }
     
@@ -1768,6 +1787,8 @@ rateTeam.addEventListener("click", function() {
         
         // updates the display of the first pokemon's rating
         firstPokemon.innerHTML = "Your first Pokemon is broken and will completely destroy the metagame.";
+        
+        img1.src= "https://www.smogon.com/dex/media/sprites/xy/" + megaPokemon + ".gif";
 
     }
     
@@ -1781,6 +1802,7 @@ rateTeam.addEventListener("click", function() {
         
         // updates the display of the first pokemon's rating
         firstPokemon.innerHTML = "Please enter a Pokemon in the first slot.";
+        
     }
     
     // checks if there is something that isn't spelled correctly or its unranked 
@@ -1791,6 +1813,8 @@ rateTeam.addEventListener("click", function() {
         
         // updates the display of the first pokemon's rating
         firstPokemon.innerHTML = "Sorry, your first Pokemon is either misspelled or unranked. Please check your spelling and/or your Pokemon choices.";
+
+        img1.src= "https://www.smogon.com/dex/media/sprites/xy/" + megaPokemon + ".gif";
 
     }
 
@@ -1882,7 +1906,8 @@ rateTeam.addEventListener("click", function() {
 
         toon1 = 1;
         secondPokemon.innerHTML = "Your second Pokemon sucks and there are many Pokemon that does this Pokemon's job better that you could have chosen instead.";
-
+        img2.src= "https://www.smogon.com/dex/media/sprites/xy/" + pokemon1 + ".gif";
+        
     }
     else if (
         (pokemon1 == "charizard") ||
@@ -1995,6 +2020,7 @@ rateTeam.addEventListener("click", function() {
 
         toon1 = 2;
         secondPokemon.innerHTML = "Your second Pokemon isn't good competitively can only be used situationally.";
+        img2.src= "https://www.smogon.com/dex/media/sprites/xy/" + pokemon1 + ".gif";
 
     }
 
@@ -2084,6 +2110,7 @@ rateTeam.addEventListener("click", function() {
 
         toon1 = 3;
         secondPokemon.innerHTML = "Your second Pokemon is mediocre and will be difficult to use competitively.";
+        img2.src= "https://www.smogon.com/dex/media/sprites/xy/" + pokemon1 + ".gif";
 
     }
     else if (
@@ -2171,6 +2198,7 @@ rateTeam.addEventListener("click", function() {
 
         toon1 = 4;
         secondPokemon.innerHTML = "Your second Pokemon is a decent Pokemon that can be used competitively.";
+        img2.src= "https://www.smogon.com/dex/media/sprites/xy/" + pokemon1 + ".gif";
 
     }
     else if (
@@ -2267,6 +2295,7 @@ rateTeam.addEventListener("click", function() {
 
         toon1 = 5;
         secondPokemon.innerHTML = "Your second Pokemon is a great Pokemon that competes with others well.";
+        img2.src= "https://www.smogon.com/dex/media/sprites/xy/" + pokemon1 + ".gif";
 
     }
     else if (
@@ -2317,17 +2346,13 @@ rateTeam.addEventListener("click", function() {
         (pokemon1 == "yveltal") ||
         (pokemon1 == "solgaleo") ||
         (pokemon1 == "darkrai") ||
-        (pokemon1 == "necrozma-ultra") ||
-        (pokemon1 == "ultra-necrozma") ||
-        (pokemon1 == "necrozma ultra") ||
-        (pokemon1 == "ultra necrozma") ||
-        (pokemon1 == "necrozma-dusk-mane") ||
+        (pokemon1 == "necrozma-dusk mane") ||
         (pokemon1 == "dusk-mane-necrozma") ||
-        (pokemon1 == "necrozma dusk mane") ||
+        (pokemon1 == "necrozma-dusk-mane") ||
         (pokemon1 == "dusk mane necrozma") ||
-        (pokemon1 == "necrozma-dawn-wings") ||
+        (pokemon1 == "necrozma-dawn wings") ||
         (pokemon1 == "dawn-wings-necrozma") ||
-        (pokemon1 == "necrozma dawn wings") ||
+        (pokemon1 == "necrozma-dawn-wings") ||
         (pokemon1 == "dawn wings necrozma") ||
         (pokemon1 == "lunala") ||
         (pokemon1 == "blaziken-mega") ||
@@ -2350,6 +2375,7 @@ rateTeam.addEventListener("click", function() {
 
         toon1 = 6;
         secondPokemon.innerHTML = "Your second Pokemon is an excellent top-tier Pokemon among the best.";
+        img2.src= "https://www.smogon.com/dex/media/sprites/xy/" + pokemon1 + ".gif";
 
     }
     
@@ -2366,6 +2392,7 @@ rateTeam.addEventListener("click", function() {
 
         toon1 = 0;
         secondPokemon.innerHTML = "Sorry, your second Pokemon is either misspelled or unranked. Please check your spelling and/or your Pokemon choices.";
+        img2.src= "https://www.smogon.com/dex/media/sprites/xy/" + pokemon1 + ".gif";
 
     }
 
@@ -2457,6 +2484,7 @@ rateTeam.addEventListener("click", function() {
 
         toon2 = 1;
         thirdPokemon.innerHTML = "Your third Pokemon sucks and there are many Pokemon that does this Pokemon's job better that you could have chosen instead.";
+        img3.src= "https://www.smogon.com/dex/media/sprites/xy/" + pokemon2 + ".gif";
 
     }
     else if (
@@ -2570,6 +2598,7 @@ rateTeam.addEventListener("click", function() {
 
         toon2 = 2;
         thirdPokemon.innerHTML = "Your third Pokemon isn't good competitively can only be used situationally.";
+        img3.src= "https://www.smogon.com/dex/media/sprites/xy/" + pokemon2 + ".gif";
 
     }
 
@@ -2659,6 +2688,7 @@ rateTeam.addEventListener("click", function() {
 
         toon2 = 3;
         thirdPokemon.innerHTML = "Your third Pokemon is mediocre and will be difficult to use competitively.";
+        img3.src= "https://www.smogon.com/dex/media/sprites/xy/" + pokemon2 + ".gif";
 
     }
     else if (
@@ -2746,6 +2776,7 @@ rateTeam.addEventListener("click", function() {
 
         toon2 = 4;
         thirdPokemon.innerHTML = "Your third Pokemon is a decent Pokemon that can be used competitively.";
+        img3.src= "https://www.smogon.com/dex/media/sprites/xy/" + pokemon2 + ".gif";
 
     }
     else if (
@@ -2842,6 +2873,7 @@ rateTeam.addEventListener("click", function() {
 
         toon2 = 5;
         thirdPokemon.innerHTML = "Your third Pokemon is a great Pokemon that competes with others well.";
+        img3.src= "https://www.smogon.com/dex/media/sprites/xy/" + pokemon2 + ".gif";
 
     }
     else if (
@@ -2892,17 +2924,13 @@ rateTeam.addEventListener("click", function() {
         (pokemon2 == "yveltal") ||
         (pokemon2 == "solgaleo") ||
         (pokemon2 == "darkrai") ||
-        (pokemon2 == "necrozma-ultra") ||
-        (pokemon2 == "ultra-necrozma") ||
-        (pokemon2 == "necrozma ultra") ||
-        (pokemon2 == "ultra necrozma") ||
-        (pokemon2 == "necrozma-dusk-mane") ||
+        (pokemon2 == "necrozma-dusk mane") ||
         (pokemon2 == "dusk-mane-necrozma") ||
-        (pokemon2 == "necrozma dusk mane") ||
+        (pokemon2 == "necrozma-dusk-mane") ||
         (pokemon2 == "dusk mane necrozma") ||
-        (pokemon2 == "necrozma-dawn-wings") ||
+        (pokemon2 == "necrozma-dawn wings") ||
         (pokemon2 == "dawn-wings-necrozma") ||
-        (pokemon2 == "necrozma dawn wings") ||
+        (pokemon2 == "necrozma-dawn-wings") ||
         (pokemon2 == "dawn wings necrozma") ||
         (pokemon2 == "lunala") ||
         (pokemon2 == "blaziken-mega") ||
@@ -2925,6 +2953,7 @@ rateTeam.addEventListener("click", function() {
 
         toon2 = 6;
         thirdPokemon.innerHTML = "Your third Pokemon is an excellent top-tier Pokemon among the best.";
+        img3.src= "https://www.smogon.com/dex/media/sprites/xy/" + pokemon2 + ".gif";
 
     }
     
@@ -2941,6 +2970,7 @@ rateTeam.addEventListener("click", function() {
 
         toon2 = 0;
         thirdPokemon.innerHTML = "Sorry, your third Pokemon is either misspelled or unranked. Please check your spelling and/or your Pokemon choices.";
+        img3.src= "https://www.smogon.com/dex/media/sprites/xy/" + pokemon2 + ".gif";
 
     }
 
@@ -3032,6 +3062,7 @@ rateTeam.addEventListener("click", function() {
 
         toon3 = 1;
         fourthPokemon.innerHTML = "Your fourth Pokemon sucks and there are many Pokemon that does this Pokemon's job better that you could have chosen instead.";
+        img4.src= "https://www.smogon.com/dex/media/sprites/xy/" + pokemon3 + ".gif";
 
     }
     else if (
@@ -3145,6 +3176,7 @@ rateTeam.addEventListener("click", function() {
 
         toon3 = 2;
         fourthPokemon.innerHTML = "Your fourth Pokemon isn't good competitively can only be used situationally.";
+        img4.src= "https://www.smogon.com/dex/media/sprites/xy/" + pokemon3 + ".gif";
 
     }
 
@@ -3321,6 +3353,7 @@ rateTeam.addEventListener("click", function() {
 
         toon3 = 4;
         fourthPokemon.innerHTML = "Your fourth Pokemon is a decent Pokemon that can be used competitively.";
+        img4.src= "https://www.smogon.com/dex/media/sprites/xy/" + pokemon3 + ".gif";
 
     }
     else if (
@@ -3417,6 +3450,7 @@ rateTeam.addEventListener("click", function() {
 
         toon3 = 5;
         fourthPokemon.innerHTML = "Your fourth Pokemon is a great Pokemon that competes with others well.";
+        img4.src= "https://www.smogon.com/dex/media/sprites/xy/" + pokemon3 + ".gif";
 
     }
     else if (
@@ -3467,17 +3501,13 @@ rateTeam.addEventListener("click", function() {
         (pokemon3 == "yveltal") ||
         (pokemon3 == "solgaleo") ||
         (pokemon3 == "darkrai") ||
-        (pokemon3 == "necrozma-ultra") ||
-        (pokemon3 == "ultra-necrozma") ||
-        (pokemon3 == "necrozma ultra") ||
-        (pokemon3 == "ultra necrozma") ||
         (pokemon3 == "necrozma-dusk-mane") ||
         (pokemon3 == "dusk-mane-necrozma") ||
-        (pokemon3 == "necrozma dusk mane") ||
+        (pokemon3 == "necrozma-dusk mane") ||
         (pokemon3 == "dusk mane necrozma") ||
         (pokemon3 == "necrozma-dawn-wings") ||
         (pokemon3 == "dawn-wings-necrozma") ||
-        (pokemon3 == "necrozma dawn wings") ||
+        (pokemon3 == "necrozma-dawn wings") ||
         (pokemon3 == "dawn wings necrozma") ||
         (pokemon3 == "lunala") ||
         (pokemon3 == "blaziken-mega") ||
@@ -3500,6 +3530,7 @@ rateTeam.addEventListener("click", function() {
 
         toon3 = 6;
         fourthPokemon.innerHTML = "Your fourth Pokemon is an excellent top-tier Pokemon among the best.";
+        img4.src= "https://www.smogon.com/dex/media/sprites/xy/" + pokemon3 + ".gif";
 
     }
     
@@ -3516,7 +3547,8 @@ rateTeam.addEventListener("click", function() {
 
         toon3 = 0;
         fourthPokemon.innerHTML = "Sorry, your fourth Pokemon is either misspelled or unranked. Please check your spelling and/or your Pokemon choices.";
-
+        img4.src= "https://www.smogon.com/dex/media/sprites/xy/" + pokemon3 + ".gif";
+        
     }
 
     if (
@@ -3607,7 +3639,8 @@ rateTeam.addEventListener("click", function() {
 
         toon4 = 1;
         fifthPokemon.innerHTML = "Your fifth Pokemon sucks and there are many Pokemon that does this Pokemon's job better that you could have chosen instead.";
-
+        img5.src= "https://www.smogon.com/dex/media/sprites/xy/" + pokemon4 + ".gif";
+        
     }
     else if (
         (pokemon4 == "charizard") ||
@@ -3720,6 +3753,7 @@ rateTeam.addEventListener("click", function() {
 
         toon4 = 2;
         fifthPokemon.innerHTML = "Your fifth Pokemon isn't good competitively can only be used situationally.";
+        img5.src= "https://www.smogon.com/dex/media/sprites/xy/" + pokemon4 + ".gif";
 
     }
 
@@ -3809,6 +3843,7 @@ rateTeam.addEventListener("click", function() {
 
         toon4 = 3;
         fifthPokemon.innerHTML = "Your fifth Pokemon is mediocre and will be difficult to use competitively.";
+        img5.src= "https://www.smogon.com/dex/media/sprites/xy/" + pokemon4 + ".gif";
 
     }
     else if (
@@ -3896,6 +3931,7 @@ rateTeam.addEventListener("click", function() {
 
         toon4 = 4;
         fifthPokemon.innerHTML = "Your fifth Pokemon is a decent Pokemon that can be used competitively.";
+        img5.src= "https://www.smogon.com/dex/media/sprites/xy/" + pokemon4 + ".gif";
 
     }
     else if (
@@ -3992,6 +4028,7 @@ rateTeam.addEventListener("click", function() {
 
         toon4 = 5;
         fifthPokemon.innerHTML = "Your fifth Pokemon is a great Pokemon that competes with others well.";
+        img5.src= "https://www.smogon.com/dex/media/sprites/xy/" + pokemon4 + ".gif";
 
     }
     else if (
@@ -4042,17 +4079,13 @@ rateTeam.addEventListener("click", function() {
         (pokemon4 == "yveltal") ||
         (pokemon4 == "solgaleo") ||
         (pokemon4 == "darkrai") ||
-        (pokemon4 == "necrozma-ultra") ||
-        (pokemon4 == "ultra-necrozma") ||
-        (pokemon4 == "necrozma ultra") ||
-        (pokemon4 == "ultra necrozma") ||
         (pokemon4 == "necrozma-dusk-mane") ||
         (pokemon4 == "dusk-mane-necrozma") ||
-        (pokemon4 == "necrozma dusk mane") ||
+        (pokemon4 == "necrozma-dusk mane") ||
         (pokemon4 == "dusk mane necrozma") ||
         (pokemon4 == "necrozma-dawn-wings") ||
         (pokemon4 == "dawn-wings-necrozma") ||
-        (pokemon4 == "necrozma dawn wings") ||
+        (pokemon4 == "necrozma-dawn wings") ||
         (pokemon4 == "dawn wings necrozma") ||
         (pokemon4 == "lunala") ||
         (pokemon4 == "blaziken-mega") ||
@@ -4075,6 +4108,7 @@ rateTeam.addEventListener("click", function() {
 
         toon4 = 6;
         fifthPokemon.innerHTML = "Your fifth Pokemon is an excellent top-tier Pokemon among the best.";
+        img5.src= "https://www.smogon.com/dex/media/sprites/xy/" + pokemon4 + ".gif";
 
     }
     
@@ -4091,7 +4125,8 @@ rateTeam.addEventListener("click", function() {
 
         toon4 = 0;
         fifthPokemon.innerHTML = "Sorry, your fifth Pokemon is either misspelled or unranked. Please check your spelling and/or your Pokemon choices.";
-
+        img5.src= "https://www.smogon.com/dex/media/sprites/xy/" + pokemon4 + ".gif";
+        
     }
 
     if (
@@ -4182,6 +4217,7 @@ rateTeam.addEventListener("click", function() {
 
         toon5 = 1;
         sixthPokemon.innerHTML = "Your sixth Pokemon sucks and there are many Pokemon that does this Pokemon's job better that you could have chosen instead.";
+        img6.src= "https://www.smogon.com/dex/media/sprites/xy/" + pokemon5 + ".gif";
 
     }
     else if (
@@ -4295,7 +4331,8 @@ rateTeam.addEventListener("click", function() {
 
         toon5 = 2;
         sixthPokemon.innerHTML = "Your sixth Pokemon isn't good competitively can only be used situationally.";
-
+        img6.src= "https://www.smogon.com/dex/media/sprites/xy/" + pokemon5 + ".gif";
+        
     }
 
     else if (
@@ -4384,6 +4421,7 @@ rateTeam.addEventListener("click", function() {
 
         toon5 = 3;
         sixthPokemon.innerHTML = "Your sixth Pokemon is mediocre and will be difficult to use competitively.";
+        img6.src= "https://www.smogon.com/dex/media/sprites/xy/" + pokemon5 + ".gif";
 
     }
     else if (
@@ -4471,6 +4509,7 @@ rateTeam.addEventListener("click", function() {
 
         toon5 = 4;
         sixthPokemon.innerHTML = "Your sixth Pokemon is a decent Pokemon that can be used competitively.";
+        img6.src= "https://www.smogon.com/dex/media/sprites/xy/" + pokemon5 + ".gif";
 
     }
     else if (
@@ -4567,6 +4606,7 @@ rateTeam.addEventListener("click", function() {
 
         toon5 = 5;
         sixthPokemon.innerHTML = "Your sixth Pokemon is a great Pokemon that competes with others well.";
+        img6.src= "https://www.smogon.com/dex/media/sprites/xy/" + pokemon5 + ".gif";
 
     }
     else if (
@@ -4617,17 +4657,13 @@ rateTeam.addEventListener("click", function() {
         (pokemon5 == "yveltal") ||
         (pokemon5 == "solgaleo") ||
         (pokemon5 == "darkrai") ||
-        (pokemon5 == "necrozma-ultra") ||
-        (pokemon5 == "ultra-necrozma") ||
-        (pokemon5 == "necrozma ultra") ||
-        (pokemon5 == "ultra necrozma") ||
         (pokemon5 == "necrozma-dusk-mane") ||
         (pokemon5 == "dusk-mane-necrozma") ||
-        (pokemon5 == "necrozma dusk mane") ||
+        (pokemon5 == "necrozma-dusk mane") ||
         (pokemon5 == "dusk mane necrozma") ||
         (pokemon5 == "necrozma-dawn-wings") ||
         (pokemon5 == "dawn-wings-necrozma") ||
-        (pokemon5 == "necrozma dawn wings") ||
+        (pokemon5 == "necrozma-dawn wings") ||
         (pokemon5 == "dawn wings necrozma") ||
         (pokemon5 == "lunala") ||
         (pokemon5 == "blaziken-mega") ||
@@ -4650,6 +4686,7 @@ rateTeam.addEventListener("click", function() {
 
         toon5 = 6;
         sixthPokemon.innerHTML = "Your sixth Pokemon is an excellent top-tier Pokemon among the best.";
+        img6.src= "https://www.smogon.com/dex/media/sprites/xy/" + pokemon5 + ".gif";
 
     }
     
@@ -4666,6 +4703,7 @@ rateTeam.addEventListener("click", function() {
 
         toon5 = 0;
         sixthPokemon.innerHTML = "Sorry, your sixth Pokemon is either misspelled or unranked. Please check your spelling and/or your Pokemon choices.";
+        img6.src= "https://www.smogon.com/dex/media/sprites/xy/" + pokemon5 + ".gif";
 
     }
     

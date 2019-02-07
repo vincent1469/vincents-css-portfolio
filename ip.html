@@ -7,16 +7,16 @@
 </head>
 
 <body>
-    <h1>
+    <h1 class="header">
         Pokemon Tier List
     </h1>
     <table border=2px solid white>
         <tr>
             <td class="navbar"><a href="index.html">About Me</a></td>
-            <td class="navbar"><a href="howto.html">How-To for About Me</a></td>
             <td class="navbar"><a href="circleArt.html">Generative Art</a></td>
             <td class="navbar"><a href="howtoJavascript.html">How-To for Generative Art</a></td>
-            <td class="navbar"><a href="ip.html">Pokemon Tier List</a></td>
+            <td class="navbar"><a href="ip.html">Interactive Page</a></td>
+            <td class="navbar"><a href="howtoIP.html">How-To for Interactive Page</a></td>
         </tr>
     </table>
     <p></p>
@@ -380,8 +380,10 @@
         <li>Please make sure to spell everything correctly.</li>
         <li>If you enter a Mega Pokemon in a non-Mega slot, it will be treated as the original non-Mega Pokemon instead.</li>
         <li>Alternatively, you can include non-Mega Pokemon in the Mega Pokemon slot.</li>
-        <li>Pokemon with separate forms should be entered as name-form, for example, "Necrozma-Ultra", "Deoxys-Attack", or "Sivally-Fairy". (You do not have to do this with Mega Pokemon and Alolan Pokemon, although you can).</li>
-        <li>Specify the Mega Form for Mega Mewtwo and Mega Charizard, for example, "Mewtwo-Mega-Y" or "Mega Charizard X"</li>
+        <li>Pokemon with separate forms should be entered with the form after the name for images to appear, for example, "Necrozma-Ultra", "Rayquaza-Mega", or "Sivally-Fairy".</li>
+        <li>If the form has two or more words in it, use spaces instead of dashes for images to appear. For example, Necrozma-Dawn Wings.</li>
+        <li>Specify the Mega Form for Mega Mewtwo and Mega Charizard, for example, "Mewtwo-Mega-Y" or "Charizard-Mega-X"</li>
+        <li>Do not use spaces, since images will not be supported.</li>
         <li>Arceus' other forms are not included in here.</li>
     </ul>
     <p></p>
@@ -399,20 +401,21 @@
     <p></p>
     <button class="pokemon" id="rateTeam">Rate My Team!</button>
     <p></p>
-    <div class="pokemon" id="firstPokemon">This will be your 1st Pokemon's Rating.</div>
+    <div class="pokemon" id="firstPokemon">This will be your 1st Pokemon's Rating.</div> <img id="img1" class="pokemon" src=""></img>
     <p></p>
-    <div class="pokemon" id="secondPokemon">This will be your 2nd Pokemon's Rating.</div>
+    <div class="pokemon" id="secondPokemon">This will be your 2nd Pokemon's Rating.</div> <img id="img2" class="pokemon" src=""></img>
     <p></p>
-    <div class="pokemon" id="thirdPokemon">This will be your 3rd Pokemon's Rating.</div>
+    <div class="pokemon" id="thirdPokemon">This will be your 3rd Pokemon's Rating.</div> <img id="img3" class="pokemon" src=""></img>
     <p></p>
-    <div class="pokemon" id="fourthPokemon">This will be your 4th Pokemon's Rating.</div>
+    <div class="pokemon" id="fourthPokemon">This will be your 4th Pokemon's Rating.</div> <img id="img4" class="pokemon" src=""></img>
     <p></p>
-    <div class="pokemon" id="fifthPokemon">This will be your 5th Pokemon's Rating.</div>
+    <div class="pokemon" id="fifthPokemon">This will be your 5th Pokemon's Rating.</div> <img id="img5" class="pokemon" src=""></img>
     <p></p>
-    <div class="pokemon" id="sixthPokemon">This will be your 6th Pokemon's Rating.</div>
+    <div class="pokemon" id="sixthPokemon">This will be your 6th Pokemon's Rating.</div> <img id="img6" class="pokemon" src=""></img>
     <p></p>
     <div class="pokemon" id="teamRater" style="font-weight:bold">This will be your Team Rating.</div>
     <p></p>
+    
     <script src="checkpoint/ip.js"></script>
     <div id="top-right">Vincent Chu</div>
 </body>
