@@ -2358,7 +2358,7 @@ rateTeam.addEventListener("click", function() {
     ) {
         
         toon1 = 0;
-        pokemon1.innerHTML = "Please enter a Pokemon in the second slot.";
+        secondPokemon.innerHTML = "Please enter a Pokemon in the second slot.";
         
     }
     
@@ -2933,7 +2933,7 @@ rateTeam.addEventListener("click", function() {
     ) {
         
         toon2 = 0;
-        pokemon2.innerHTML = "Please enter a Pokemon in the third slot.";
+        thirdPokemon.innerHTML = "Please enter a Pokemon in the third slot.";
         
     }
     
@@ -3508,7 +3508,7 @@ rateTeam.addEventListener("click", function() {
     ) {
         
         toon3 = 0;
-        pokemon3.innerHTML = "Please enter a Pokemon in the fourth slot.";
+        fourthPokemon.innerHTML = "Please enter a Pokemon in the fourth slot.";
         
     }
     
@@ -4083,7 +4083,7 @@ rateTeam.addEventListener("click", function() {
     ) {
         
         toon4 = 0;
-        pokemon4.innerHTML = "Please enter a Pokemon in the fifth slot.";
+        fifthPokemon.innerHTML = "Please enter a Pokemon in the fifth slot.";
         
     }
     
@@ -4658,7 +4658,7 @@ rateTeam.addEventListener("click", function() {
     ) {
         
         toon5 = 0;
-        pokemon5.innerHTML = "Please enter a Pokemon in the sixth slot.";
+        sixthPokemon.innerHTML = "Please enter a Pokemon in the sixth slot.";
         
     }
     
